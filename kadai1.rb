@@ -1,4 +1,6 @@
- in 1..100
+#! usr/bin/env ruby
+
+for i in 1..100 do
         if i%3 == 0 && i%5 == 0 then
                 print("FizzBuzz\n")
         elsif i%3 == 0 then
